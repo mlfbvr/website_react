@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+:root {
+  --background: var(--color-slate-900);
+  --foreground: #dedede;
+}
+
+html,
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+}
