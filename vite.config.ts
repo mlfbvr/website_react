@@ -5,7 +5,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }: ConfigEnv): UserConfig => ({
-  base: mode === 'prod' ? '/' : '/website/',
+  base: mode === 'production' ? '/' : '/website/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
